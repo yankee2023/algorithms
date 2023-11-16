@@ -13,6 +13,10 @@ void trace(int A[], int N) {
     cout << endl;
 }
 
+/**
+ * @brief 挿入ソート
+ * @details 昇順にソート
+*/
 void insertion_sort(int A[], int N) {
     int v, j;
     for (int i = 1; i < N; i++) {
@@ -35,6 +39,7 @@ int main() {
         cin >> A[i];
     }
     
+    // 最初の並び順のログ出力
     trace(A, N);
     insertion_sort(A, N);
 
