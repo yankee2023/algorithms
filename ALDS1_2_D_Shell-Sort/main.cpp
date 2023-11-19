@@ -1,7 +1,4 @@
 #include <iostream>
-#include <cstdio>
-#include <algorithm>
-#include <cmath>
 #include <vector>
 using namespace std;
 
@@ -64,7 +61,7 @@ int main() {
     cout << endl;
     cout << cnt << endl;
     for (int i = 0; i < n; i++) {
-        printf("%d\n", A[i]);
+        cout << A[i] << endl;
     }
 
     return 0;    
