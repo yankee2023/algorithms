@@ -8,5 +8,8 @@
 - [安定なソート(Stable Sort)](ALDS1_2_C_Stable-Sort/main.cpp)
 - [シェルソート(Shell Sort)](ALDS1_2_D_Shell-Sort/main.cpp)
 
+# データ構造
+- [スタック(Stack)](ALDS1_3_A_Stack/main.cpp)
+
 # メモ
   
