@@ -8,10 +8,15 @@ typedef struct Process {
 } Process;
 
 Process queue[LEN];
-int head, tail, n;
+// キューの先頭の場所を指す
+int head;
+// キューの末尾 +1(最後の要素の1つ後ろ)を指す 
+int tail;
+int n;
 
 /**
- * @brief ENQUEUE
+ * @brief キューに要素を追加
+ * @param [in] x キューに追加する要素
 */
 static void enqueue(Process x) {
     queue[tail] = x;
@@ -19,7 +24,7 @@ static void enqueue(Process x) {
 }
 
 /**
- * @brief DEQUEUE
+ * @brief キューから要素を取り出す
  * @return 一番古いProcess
 */
 static Process dequeue() {
