@@ -10,6 +10,9 @@
 
 # データ構造
 - [スタック(Stack)](ALDS1_3_A_Stack/main.cpp)
+- [キュー(Queue)](ALDS1_3_B_Queue/main.cpp)
 
 # メモ
+  - ラウンドロビンスケジューリング
   
+  - クオンタム
