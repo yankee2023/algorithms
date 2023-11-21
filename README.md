@@ -11,6 +11,7 @@
 # データ構造
 - [スタック(Stack)](ALDS1_3_A_Stack/main.cpp)
 - [キュー(Queue)](ALDS1_3_B_Queue/main.cpp)
+- [双方向連結リスト(Doubly Linked List)](ALDS1_3_C_Doubly-Linked-List/main.cpp)
 
 # メモ
   - ラウンドロビンスケジューリング
