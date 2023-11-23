@@ -16,10 +16,10 @@
 # STL(Standard Template Library)
 - [スタック(Stack)](STL/Stack/main.cpp)
 - [キュー(Queue)](STL/Queue//main.cpp)
-- [可変長配列(Vector)](STL/Vector/main.cpp)
+- [可変長配列(Vector)](STL/Vector/main.cpp)<br>
   要素数がnのvectorに対する特定の位置へのデータ挿入や削除はO(n)の計算量が必要になるので注意。
-- [リスト(List)](STL/List/main.cpp)
-  ListではVectorのように[]演算子で要素へアクセスできないので注意。
+- [リスト(List)](STL/List/main.cpp)<br>
+  ListではVectorのように[]演算子で要素へアクセスできないので注意。<br>
   しかし、ListはVectorと異なり、要素の挿入と削除をO(1)で高速に行うことができる。
 
 # メモ
