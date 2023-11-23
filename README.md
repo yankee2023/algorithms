@@ -12,6 +12,7 @@
 - [スタック(Stack)](ALDS1_3_A_Stack/main.cpp)
 - [キュー(Queue)](ALDS1_3_B_Queue/main.cpp)
 - [双方向連結リスト(Doubly Linked List)](ALDS1_3_C_Doubly-Linked-List/main.cpp)
+- [応用: 面積計算](ALDS1_3_D_Areas-on-the-Cross-Section-Diagram/main.cpp)
 
 # STL(Standard Template Library)
 - [スタック(Stack)](STL/Stack/main.cpp)
