@@ -24,8 +24,10 @@
   しかし、ListはVectorと異なり、要素の挿入と削除をO(1)で高速に行うことができる。
 
 # 探索
-- [線形探索(Linear Search)](ALDS1_4_A_Linear-Search/main.cpp)  
-  配列の先頭から各要素が目的の値と等しいか順番に調べる。線形探索はO(n)のアルゴリズム。
+- [線形探索(Linear Search)](ALDS1_4_A_Linear-Search/main.c)  
+  配列の先頭から各要素が目的の値と等しいか順番に調べる。計算量はO(n)。  
+- [二分探索(Binary Search)](ALDS1_4_B_Binary-Search/main.c)  
+  データが昇順もしくは降順に整列されていることが前提。一回の比較演算を行うごとに探索範囲が半分になっていく性質より、計算量はO(logn)となる。
 
 # メモ
 - ラウンドロビンスケジューリング  
