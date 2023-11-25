@@ -1,8 +1,4 @@
-#include <iostream>
-#include <list>
-#include <algorithm>
 #include <stdio.h>
-using namespace std;
 
 static int linearSearch(int S[], int n, int key) {
     int i = 0;
@@ -15,12 +11,12 @@ static int linearSearch(int S[], int n, int key) {
 
 int main() {
     int n, q, key, sum = 0, S[10000+1];
-    cin >> n;
+    scanf("%d", &n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &S[i]);
     }
     
-    cin >> q;
+    scanf("%d", &q);
     for (int i = 0; i < q; i++) {
         scanf("%d", &key);
         if (linearSearch(S, n, key)) {
