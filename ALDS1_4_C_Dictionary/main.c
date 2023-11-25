@@ -10,6 +10,7 @@ char H[M][L];
 
 /**
  * @brief 文字から数字に変換
+ * @param [in] ch 今回の入力文字
  * @return 1: A, 2: C, 3: G, 4: T, 0: それ以外 
 */
 static int32_t get_char(char ch) {
@@ -40,12 +41,28 @@ static int64_t get_key(char str[]) {
     return sum;   
 }
 
-static int32_t h1(int32_t key) {
+/**
+ * @brief ハッシュ関数
+ * @param [in] key キー
+ * @return ハッシュ値
+*/
+static int32_t hash(int32_t key) {
     return key % M;
 }
 
 static int32_t h2(int32_t key) {
     return 1 + (key % (M -1));
+}
+
+/**
+ * @brief ダブルハッシュ関数
+ * 衝突が怒らなかった最初のハッシュ値を返す
+ * @param [in] key キー
+ * @param [in] i 衝突が発生して次のハッシュ値を計算した回数
+ * @return ハッシュ値
+*/
+static int32_t double_hash(int32_t key, int32_t i) {
+    return (hash(key) + i * h2(key)) % M;
 }
 
 /**
@@ -57,7 +74,7 @@ static int32_t insert(char str[]) {
     int64_t key, i, h;
     key = get_key(str);     // 文字列を数値へ変換
     for (i = 0; ; i++) {
-        h = (h1(key) + i * h2(key)) % M;
+        h = double_hash(key, i);
         if (strcmp(H[h], str) == 0) {
             return 1;
         } else if (strlen(H[h]) == 0) {
@@ -77,7 +94,7 @@ static int32_t find(char str[]) {
     int64_t key, i, h;
     key = get_key(str);     // 文字列を数値へ変換
     for (i = 0; ; i++) {
-        h = (h1(key) + i * h2(key)) % M;
+        h = double_hash(key, i);
         if (strcmp(H[h], str) == 0) {
             return 1;
         } else if (strlen(H[h]) == 0){
