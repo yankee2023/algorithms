@@ -1,26 +1,26 @@
 # algorithms_and_data_structures
-書籍「プログラミングコンテスト攻略のためのアルゴリズムとデータ構造」の修行
+書籍「プログラミングコンテスト攻略のためのアルゴリズムとデータ構造」の修行  
 
-# 初等的配列
-- [挿入ソート(Insertion Sort)](ALDS1_1_A_Insertion-Sort/main.cpp)
-- [バブルソート(Bubble Sort)](ALDS1_2_A_Bubble-Sort/main.cpp)
-- [選択ソート(Selection Sort)](ALDS1_2_B_Selection-Sort/main.cpp)
-- [安定なソート(Stable Sort)](ALDS1_2_C_Stable-Sort/main.cpp)
-- [シェルソート(Shell Sort)](ALDS1_2_D_Shell-Sort/main.cpp)
+# 初等的配列  
+- [挿入ソート(Insertion Sort)](ALDS1_1_A_Insertion-Sort/main.cpp)  
+- [バブルソート(Bubble Sort)](ALDS1_2_A_Bubble-Sort/main.cpp)  
+- [選択ソート(Selection Sort)](ALDS1_2_B_Selection-Sort/main.cpp)  
+- [安定なソート(Stable Sort)](ALDS1_2_C_Stable-Sort/main.cpp)  
+- [シェルソート(Shell Sort)](ALDS1_2_D_Shell-Sort/main.cpp)  
 
-# データ構造
-- [スタック(Stack)](ALDS1_3_A_Stack/main.cpp)
-- [キュー(Queue)](ALDS1_3_B_Queue/main.cpp)
-- [双方向連結リスト(Doubly Linked List)](ALDS1_3_C_Doubly-Linked-List/main.cpp)
-- [応用: 面積計算](ALDS1_3_D_Areas-on-the-Cross-Section-Diagram/main.cpp)
+# データ構造  
+- [スタック(Stack)](ALDS1_3_A_Stack/main.cpp)  
+- [キュー(Queue)](ALDS1_3_B_Queue/main.cpp)  
+- [双方向連結リスト(Doubly Linked List)](ALDS1_3_C_Doubly-Linked-List/main.cpp)  
+- [応用: 面積計算](ALDS1_3_D_Areas-on-the-Cross-Section-Diagram/main.cpp)  
 
-# STL(Standard Template Library)
-- [スタック(Stack)](STL/Stack/main.cpp)
-- [キュー(Queue)](STL/Queue//main.cpp)
-- [可変長配列(Vector)](STL/Vector/main.cpp)<br>
-  要素数がnのvectorに対する特定の位置へのデータ挿入や削除はO(n)の計算量が必要になるので注意。
-- [リスト(List)](STL/List/main.cpp)<br>
-  ListではVectorのように[]演算子で要素へアクセスできないので注意。<br>
+# STL(Standard Template Library)  
+- [スタック(Stack)](STL/Stack/main.cpp)  
+- [キュー(Queue)](STL/Queue//main.cpp)  
+- [可変長配列(Vector)](STL/Vector/main.cpp)  
+  要素数がnのvectorに対する特定の位置へのデータ挿入や削除はO(n)の計算量が必要になるので注意。  
+- [リスト(List)](STL/List/main.cpp)  
+  ListではVectorのように[]演算子で要素へアクセスできないので注意。  
   しかし、ListはVectorと異なり、要素の挿入と削除をO(1)で高速に行うことができる。
 
 # 探索
@@ -48,3 +48,7 @@
   オブジェクトの集まりを表すデータ構造、クラスのこと。コンテナはイテレータを扱うための同じ名前のメンバ関数を提供する。  
   - begin(): コンテナの先頭を指すイテレータを返す  
   - end(): コンテナの末尾を指すイテレータを返す  
+- 分割統治法  
+  1. 与えられた問題を部分問題に「分割」する(Divide)  
+  2. 部分問題を再帰的に解く(Solve)  
+  3. 得られた部分問題の解を「統合」して元の問題を解く(Conquer)  
