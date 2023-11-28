@@ -31,6 +31,9 @@
 - [ハッシュ(Hash)](ALDS1_4_C_Dictionary/main.c)  
   衝突回避の方法としてダブルハッシュを用いたオープンアドレス法で実装。検索、削除にはO(n)の計算量がかかる。
 
+# 再帰・分割統治法
+- [全探索(Exhaustive Search)](ALDS1_5_A_Exhaustive-Search/main.cpp)
+
 # メモ
 - ラウンドロビンスケジューリング  
 - クオンタム  
