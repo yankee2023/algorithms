@@ -34,7 +34,11 @@
 # 再帰・分割統治法
 - [全探索(Exhaustive Search)](ALDS1_5_A_Exhaustive-Search/main.cpp)
 - [コッホ曲線(Koch Curve)](ALDS1_5_C_Koch-Curve/main.cpp)
-- 
+
+# 高等的配列
+- [マージソート(Merge Sort)](ALDS1_5_B_Merge-Sort/main.cpp)  
+  一般的にn個のデータの場合、約logn個の階層になる。各階層ごとに行われる全てのmergeの計算量はO(n)となる。よってマージソートの計算量はO(nlogn)。
+  高速で安定なソートアルゴリズムだが、入力データを保持する配列以外に一時的なメモリ領域が必要になる。  
 
 # メモ
 - ラウンドロビンスケジューリング  
