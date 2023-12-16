@@ -39,6 +39,9 @@ static void merge(Card A[], int n, int left, int mid, int right)
     
 }
 
+/**
+ * @brief マージソート
+*/
 static void merge_sort(Card A[], int n, int left, int right)
 {
     int mid;
@@ -50,6 +53,9 @@ static void merge_sort(Card A[], int n, int left, int right)
     }
 }
 
+/**
+ * @brief パーティション
+*/
 static int partition(Card A[], int n, int left, int right)
 {
     Card tmp, x;
@@ -68,6 +74,9 @@ static int partition(Card A[], int n, int left, int right)
     return i + 1;
 }
 
+/**
+ * @brief クイックソート
+*/
 static void quick_sort(Card A[], int n, int left, int right)
 {
     int q;
