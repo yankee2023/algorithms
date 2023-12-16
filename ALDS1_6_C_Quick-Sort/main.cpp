@@ -23,7 +23,7 @@ static void merge(Card A[], int n, int left, int mid, int right)
     for (i = 0; i < n2; i++) {
         R[i] = A[mid + i];
     }
-    
+
     L[n1].value = R[n2].value = SENTINEL;
     i = j = 0;
 
@@ -36,7 +36,6 @@ static void merge(Card A[], int n, int left, int mid, int right)
             j++;
         }
     }
-    
 }
 
 /**
@@ -92,7 +91,7 @@ int main()
     int n, v;
     Card merge[MAX], quick[MAX];
     char S[10];
-    int stable = 1;     // 1:安定 , 0:不安定 
+    int stable = 1;     // 1:安定 , 0:不安定
 
     cin >> n;
     for (int i = 0; i < n; i++) {
@@ -109,7 +108,7 @@ int main()
             stable = 0;
         }
     }
-    
+
     // マージソートとクイックソートの比較
     if (stable) {
         cout << "Stable" << endl;
