@@ -22,6 +22,8 @@ int main()
     }
 
     // 昇順にソート
+    // 第一引数に先頭イテレータ
+    // 第荷引数に末尾イテレータ
     sort(v.begin(), v.end());
 
     for (int i = 0; i < v.size(); i++) {
