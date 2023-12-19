@@ -76,8 +76,6 @@ static void print(int u)
     } else {
         cout << "internal node" << endl;
     }
-    
-    
 }
 
 int main()
