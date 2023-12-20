@@ -49,7 +49,8 @@
 # 木
 - [根付き木(Rooted Tree)](ALDS1_7_A_Rooted-Trees/main.cpp)
 - [二分木(Binary Tree)](ALDS1_7_B_Binary-Tree/main.cpp)  
-- [木の巡回(Tree Walk)](ALDS1_7_C_Tree-Walk/main.cpp)
+- [木の巡回(Tree Walk)](ALDS1_7_C_Tree-Walk/main.cpp)  
+- [木の復元(Reconstruction of the Tree)](ALDS1_7_D_Reconstruction-of-the-Tree/main.cpp)
 
 # メモ
 - ラウンドロビンスケジューリング  
