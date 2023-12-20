@@ -46,6 +46,11 @@
 - [計数ソート(Counting Sort)](ALDS1_6_A_Counting-Sort/main.cpp)  
   入力配列の要素を後ろから選ぶことで安定なソートにある。各要素が0以上k以下である要素数nの数列に対して線形時間(O(n + k))で動く安定なソートアルゴリズムである。バケツソート、バケットソートなどとも呼ばれる。
 
+# 木
+- [根付き木(Rooted Tree)](ALDS1_7_A_Rooted-Trees/main.cpp)
+- [二分木(Binary Tree)](ALDS1_7_B_Binary-Tree/main.cpp)  
+- [木の巡回(Tree Walk)](ALDS1_7_C_Tree-Walk/main.cpp)
+
 # メモ
 - ラウンドロビンスケジューリング  
 - クオンタム  
