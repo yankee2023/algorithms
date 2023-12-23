@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) 起動",
+            "name": "C++: Current file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/a.out",
+            "program": "${workspaceRoot}/bin/a.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
