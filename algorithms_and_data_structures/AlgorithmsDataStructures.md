@@ -1,20 +1,23 @@
 # 目的
-書籍「プログラミングコンテスト攻略のためのアルゴリズムとデータ構造」の修行  
+書籍「プログラミングコンテスト攻略のためのアルゴリズムとデータ構造」の修行。  
 
-# 初等的配列  
+# 初等的配列
+
 - [挿入ソート(Insertion Sort)](ALDS1_1_A_Insertion-Sort/main.cpp)  
 - [バブルソート(Bubble Sort)](ALDS1_2_A_Bubble-Sort/main.cpp)  
 - [選択ソート(Selection Sort)](ALDS1_2_B_Selection-Sort/main.cpp)  
 - [安定なソート(Stable Sort)](ALDS1_2_C_Stable-Sort/main.cpp)  
 - [シェルソート(Shell Sort)](ALDS1_2_D_Shell-Sort/main.cpp)  
 
-# データ構造  
+# データ構造
+
 - [スタック(Stack)](ALDS1_3_A_Stack/main.cpp)  
 - [キュー(Queue)](ALDS1_3_B_Queue/main.cpp)  
 - [双方向連結リスト(Doubly Linked List)](ALDS1_3_C_Doubly-Linked-List/main.cpp)  
 - [応用: 面積計算](ALDS1_3_D_Areas-on-the-Cross-Section-Diagram/main.cpp)  
 
-# STL(Standard Template Library)  
+# STL(Standard Template Library)
+
 - [スタック(Stack)](STL/Stack/main.cpp)  
 - [キュー(Queue)](STL/Queue//main.cpp)  
 - [可変長配列(Vector)](STL/Vector/main.cpp)  
@@ -24,6 +27,7 @@
   しかし、ListはVectorと異なり、要素の挿入と削除をO(1)で高速に行うことができる。
 
 # 探索
+
 - [線形探索(Linear Search)](ALDS1_4_A_Linear-Search/main.c)  
   配列の先頭から各要素が目的の値と等しいか順番に調べる。計算量はO(n)。  
 - [二分探索(Binary Search)](ALDS1_4_B_Binary-Search/main.c)  
@@ -32,10 +36,12 @@
   衝突回避の方法としてダブルハッシュを用いたオープンアドレス法で実装。検索、削除にはO(n)の計算量がかかる。
 
 # 再帰・分割統治法
+
 - [全探索(Exhaustive Search)](ALDS1_5_A_Exhaustive-Search/main.cpp)
 - [コッホ曲線(Koch Curve)](ALDS1_5_C_Koch-Curve/main.cpp)
 
 # 高等的配列
+
 - [マージソート(Merge Sort)](ALDS1_5_B_Merge-Sort/main.cpp)  
   一般的にn個のデータの場合、約log(n)個の階層になる。各階層ごとに行われる全てのmergeの計算量はO(n)となる。よってマージソートの計算量はO(nlog(n))。
   高速で安定なソートアルゴリズムだが、入力データを保持する配列以外に一時的なメモリ領域が必要になる。
@@ -47,12 +53,14 @@
   入力配列の要素を後ろから選ぶことで安定なソートにある。各要素が0以上k以下である要素数nの数列に対して線形時間(O(n + k))で動く安定なソートアルゴリズムである。バケツソート、バケットソートなどとも呼ばれる。
 
 # 木
+
 - [根付き木(Rooted Tree)](ALDS1_7_A_Rooted-Trees/main.cpp)
 - [二分木(Binary Tree)](ALDS1_7_B_Binary-Tree/main.cpp)  
 - [木の巡回(Tree Walk)](ALDS1_7_C_Tree-Walk/main.cpp)  
 - [木の復元(Reconstruction of the Tree)](ALDS1_7_D_Reconstruction-of-the-Tree/main.cpp)
 
 # メモ
+
 - ラウンドロビンスケジューリング  
 - クオンタム  
 - 番兵法  
