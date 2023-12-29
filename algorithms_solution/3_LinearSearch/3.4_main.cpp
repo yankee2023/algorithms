@@ -1,5 +1,5 @@
 /**
- * @brief ペア和のK以上の中での最小値
+ * @note ペア和のK以上の中での最小値
 */
 
 #include <bits/stdc++.h>
