@@ -11,6 +11,7 @@
 using namespace std;
 
 /// @brief 2つの円の関係を出力
+/// @details 1:含まれる, 2:内接, 3:2点で交わる, 4:外接, 5:離れている
 /// @param r1 円1の半径
 /// @param r2 円2の半径
 /// @param origin_dist 2つの円の中心座標間の距離
